@@ -1,0 +1,160 @@
+    1. What is Semantic HTML? 
+
+Organized HTML. Kind of like a studyguide outline in college. There are Titles, Headings, SubHeadings, and content 
+organized in a systematic way to help the reader follow along with ease.
+
+    2. What is HTML used for? 
+
+HTML is used to structure a webpage using HTML elements.
+
+    3. What is an attribute and where do we put it? 
+
+An attribute helps describe an html tag i guess. They're used in the opening tags.
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+
+H1 is the top most heading. should really only be used once.
+
+    5. Name two tags that have required attributes
+
+Ancho Tag and Link Tag
+
+    6. What do we put in the head of our HTML document? 
+
+Usually Link Tags to CSS or JS files. Title and other meta data
+
+    7. What is an id? 
+
+an ID is a unique selector that can be named anything. Its used to refrence the specific element that it is assigned to.
+
+    8. What elements can I add an id to? 
+
+You can add an ID to anything
+
+    9. How many times can I use the same id on a page? 
+
+Only Once.
+
+    10. What is a class? 
+
+Class is similar to ID but it referenes a group of elements instead of a specific element.
+
+    11. What elements can I add a class to? 
+
+anything that can be grouped
+
+    12. How many times can I use the same class on a page? 
+
+as many times as youd like
+
+    13. How do I get my link to open in a new tab?
+
+add "target="_blank""  as an attribute in the starter tag
+
+    14. What is the alt attribute in the image tag used for? 
+
+used for alternative text 
+
+    15. How do I reference an id?
+
+in CSS you reference the the id with a "#" symbol
+
+    16. What is the difference between a section and a div
+
+a section divides elements and content semantically. A div is more used to break elements into sizeable pieces to 
+style later. 
+
+    17. What is CSS used for? 
+
+CSS is used for styling elements. changing their appearance
+
+    18. How to we select an element? Example - every h2 on the page
+
+h2{}....you put the selector name and follow it with two curly braces {}
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+
+an id is a unique selector. Should only be used once. A class selects a group of elements. You can use a 
+class to style a group of images in a specfic section. you can use ID to style a specific image. 
+
+    20. How do we select classes in CSS?
+
+.class{}
+
+    21. How do we select a p element with a single class of “human”?
+
+p .human {}
+
+    22. What is a parent child selector? When would this be useful? 
+
+div (space) img {}
+
+    23. How do you select all links within a div with the class of sidebar?
+
+.sidebar(space)a....call the class, call the anchor tag
+
+    24. What is a pseudo selector?
+
+.classname :hover....its an action upon a selector
+
+    25. What do we use the change the spacing between lines?
+
+line-height
+
+    26. What do we use to change the spacing between letters?
+
+letter-spacing:3px;
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+
+text-transform:uppercase;
+text-transform:lowercase;
+text-trasnform:capitalize;
+
+    28. How do I add a 1px border around my div that is dotted and black?
+
+div {
+border-style:dotted;
+border-color:black;(black is the default color right?)
+border-width:1px;
+}
+
+    29. How do I select everything on the page? 
+
+* selector
+
+    30. How do I write a comment in CSS?
+/* 
+*/
+
+    31. How do I find out what file I am in, when I am using the command line? 
+pwd
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+ls-la
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+rmv
+    34. Why should I use version control? 
+
+it helps keep track of who made what changes and when. And in the instance where a change was made you want to revert back,
+you can.
+
+    35. How often should I commit to github?
+
+whenever you finish a step?
+
+    36. What is the command we would use to push our repo up to github? 
+git-push
+
+    37. Walk me through Lambda's git flow. 
+
+fork
+invite collaborator 
+clone
+branch with FirstName LastName
+edit
+commit?
+push to branch?
+pull request?
+
+https://codepen.io/eddie98lopez/pen/YzqYyqQ
